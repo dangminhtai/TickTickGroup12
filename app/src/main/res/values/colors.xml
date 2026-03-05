@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Classic Elegant Palette -->
+    <color name="color_background">#F8F4EF</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_surface_variant">#F0EBE3</color>
+
+    <!-- Primary - Deep Navy -->
+    <color name="color_primary">#1A2744</color>
+    <color name="color_primary_variant">#243461</color>
+    <color name="color_on_primary">#FFFFFF</color>
+
+    <!-- Accent - Warm Gold -->
+    <color name="color_accent">#C9943A</color>
+    <color name="color_accent_light">#E8B96A</color>
+    <color name="color_accent_dark">#9E7028</color>
+
+    <!-- Text -->
+    <color name="color_text_primary">#1C1C1E</color>
+    <color name="color_text_secondary">#6B6B6B</color>
+    <color name="color_text_hint">#ADADAD</color>
+    <color name="color_text_on_dark">#FFFFFF</color>
+
+    <!-- Priority Colors -->
+    <color name="priority_high">#C0392B</color>
+    <color name="priority_medium">#E67E22</color>
+    <color name="priority_low">#2980B9</color>
+    <color name="priority_none">#BDC3C7</color>
+
+    <!-- Task States -->
+    <color name="color_completed">#27AE60</color>
+    <color name="color_overdue">#C0392B</color>
+    <color name="color_divider">#DDD8D0</color>
+
+    <!-- App Bar -->
+    <color name="color_toolbar">#1A2744</color>
+    <color name="color_status_bar">#111C33</color>
+
+    <!-- Drawer -->
+    <color name="color_drawer_bg">#F2EDE6</color>
+    <color name="color_drawer_header">#1A2744</color>
+    <color name="color_nav_selected">#EFE7D9</color>
+
+    <!-- Bottom Nav -->
+    <color name="color_bottom_nav_bg">#FFFFFF</color>
+    <color name="color_bottom_nav_selected">#C9943A</color>
+    <color name="color_bottom_nav_unselected">#9E9E9E</color>
+
+    <!-- Swipe Actions -->
+    <color name="color_swipe_delete">#C0392B</color>
+    <color name="color_swipe_complete">#27AE60</color>
+
+    <!-- Shadows & Borders -->
+    <color name="color_card_shadow">#0D000000</color>
+    <color name="color_card_border">#E8E2D9</color>
+
+    <!-- Splash -->
+    <color name="color_splash_bg">#1A2744</color>
+
+    <!-- White / Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

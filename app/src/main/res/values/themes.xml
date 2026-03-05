@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.Tick_tick" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorSecondary">@color/color_accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:statusBarColor">@color/color_status_bar</item>
+        <item name="android:navigationBarColor">@color/color_bottom_nav_bg</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="materialButtonStyle">@style/Widget.Classic.Button</item>
+        <item name="bottomNavigationStyle">@style/Widget.Classic.BottomNavigation</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Classic.FAB</item>
+    </style>
+
+    <style name="Theme.Tick_tick" parent="Base.Theme.Tick_tick" />
+
+    <!-- Splash Theme -->
+    <style name="Theme.Tick_tick.Splash" parent="Base.Theme.Tick_tick">
+        <item name="android:windowBackground">@color/color_splash_bg</item>
+        <item name="android:statusBarColor">@color/color_splash_bg</item>
+        <item name="android:navigationBarColor">@color/color_splash_bg</item>
+    </style>
+
+    <!-- Classic Button -->
+    <style name="Widget.Classic.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/color_accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Classic Outlined Button -->
+    <style name="Widget.Classic.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_accent</item>
+        <item name="android:textColor">@color/color_accent</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- Classic FAB -->
+    <style name="Widget.Classic.FAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/color_accent</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <!-- Bottom Navigation -->
+    <style name="Widget.Classic.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/color_bottom_nav_bg</item>
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="elevation">8dp</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget.Classic.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/color_toolbar</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/color_accent_light</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- AppBar -->
+    <style name="Widget.Classic.AppBar" parent="Widget.Material3.AppBarLayout">
+        <item name="android:background">@color/color_toolbar</item>
+        <item name="elevation">4dp</item>
+    </style>
+
+    <!-- Card Style -->
+    <style name="Widget.Classic.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/color_surface</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="strokeColor">@color/color_card_border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <!-- Task item text styles -->
+    <style name="TextAppearance.Classic.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextAppearance.Classic.Subtitle" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextAppearance.Classic.SectionHeader" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.Classic.AppTitle" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <!-- Input -->
+    <style name="Widget.Classic.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/color_accent</item>
+        <item name="hintTextColor">@color/color_text_secondary</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+    </style>
+
+    <!-- Chip -->
+    <style name="Widget.Classic.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_bg_selector</item>
+        <item name="chipStrokeColor">@color/color_accent</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="android:textColor">@color/color_text_secondary</item>
+    </style>
+
+    <!-- Snackbar -->
+    <style name="Widget.Classic.Snackbar" parent="Widget.Material3.Snackbar">
+        <item name="android:background">@drawable/bg_snackbar</item>
+    </style>
+
+</resources>

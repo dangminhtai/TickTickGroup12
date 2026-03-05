@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Tick_tick" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#3D5A99</item>
+        <item name="colorPrimaryVariant">#2D4A89</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#C9943A</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:colorBackground">#1C1C1E</item>
+        <item name="colorSurface">#2C2C2E</item>
+        <item name="colorOnSurface">#EBEBF5</item>
+        <item name="android:windowBackground">#1C1C1E</item>
+        <item name="android:statusBarColor">#111111</item>
+        <item name="android:navigationBarColor">#2C2C2E</item>
+    </style>
+    <style name="Theme.Tick_tick" parent="Base.Theme.Tick_tick" />
+    <style name="Theme.Tick_tick.Splash" parent="Base.Theme.Tick_tick">
+        <item name="android:windowBackground">#0F1F44</item>
+        <item name="android:statusBarColor">#0F1F44</item>
+        <item name="android:navigationBarColor">#0F1F44</item>
+    </style>
+</resources>
