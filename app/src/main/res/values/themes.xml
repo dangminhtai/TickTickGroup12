@@ -22,6 +22,12 @@
 
     <style name="Theme.Tick_tick" parent="Base.Theme.Tick_tick" />
 
+    <!-- Style cho CalendarView -->
+    <style name="Widget.App.CalendarView" parent="Widget.Design.TabLayout">
+        <item name="android:colorAccent">@color/color_accent</item>
+        <item name="android:colorControlActivated">@color/color_accent</item>
+    </style>
+
     <!-- Splash Theme -->
     <style name="Theme.Tick_tick.Splash" parent="Base.Theme.Tick_tick">
         <item name="android:windowBackground">@color/color_splash_bg</item>
