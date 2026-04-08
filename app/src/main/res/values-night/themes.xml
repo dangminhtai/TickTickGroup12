@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Tick_tick" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary - Deep Indigo (Lighter for dark mode) -->
+        <item name="colorPrimary">#818CF8</item>
+        <item name="colorPrimaryVariant">#6366F1</item>
+        <item name="colorOnPrimary">#1E1B4B</item>
+        
+        <!-- Secondary -->
+        <item name="colorSecondary">#2DD4BF</item>
+        <item name="colorOnSecondary">#0F172A</item>
+        <item name="colorTertiary">#FB923C</item>
+        
+        <!-- Surfaces -->
+        <item name="android:colorBackground">#0F172A</item>
+        <item name="colorSurface">#1E293B</item>
+        <item name="colorSurfaceVariant">#334155</item>
+        <item name="colorOnSurface">#F1F5F9</item>
+        <item name="colorOnSurfaceVariant">#94A3B8</item>
+        
+        <!-- Window -->
+        <item name="android:windowBackground">#0F172A</item>
+        <item name="android:statusBarColor">#0F172A</item>
+        <item name="android:navigationBarColor">#1E293B</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    
+    <style name="Theme.Tick_tick" parent="Base.Theme.Tick_tick" />
+    
+    <style name="Theme.Tick_tick.Splash" parent="Base.Theme.Tick_tick">
+        <item name="android:windowBackground">#4F46E5</item>
+        <item name="android:statusBarColor">#4F46E5</item>
+        <item name="android:navigationBarColor">#4F46E5</item>
+    </style>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Palette -->
+    <color name="color_background">#0F172A</color>
+    <color name="color_surface">#1E293B</color>
+    <color name="color_surface_variant">#334155</color>
+    <color name="color_surface_elevated">#1E293B</color>
+
+    <!-- Primary - Deep Indigo (Lightened for better contrast) -->
+    <color name="color_primary">#818CF8</color>
+    <color name="color_primary_variant">#6366F1</color>
+    <color name="color_primary_light">#A5B4FC</color>
+    <color name="color_on_primary">#1E1B4B</color>
+
+    <!-- Theme Colors -->
+    <color name="color_primary_indigo">#A5B4FC</color>
+    <color name="color_primary_indigo_variant">#818CF8</color>
+    <color name="color_primary_green">#34D399</color>
+    <color name="color_primary_green_variant">#10B981</color>
+    <color name="color_primary_red">#F87171</color>
+    <color name="color_primary_red_variant">#DC2626</color>
+    <color name="color_primary_orange">#FDBA74</color>
+    <color name="color_primary_orange_variant">#F97316</color>
+
+    <!-- Accent -->
+    <color name="color_accent">#FB923C</color>
+    <color name="color_accent_light">#FDBA74</color>
+    <color name="color_accent_dark">#F97316</color>
+
+    <!-- Text -->
+    <color name="color_text_primary">#F1F5F9</color>
+    <color name="color_text_secondary">#94A3B8</color>
+    <color name="color_text_hint">#64748B</color>
+    <color name="color_text_on_dark">#FFFFFF</color>
+
+    <!-- App Bar -->
+    <color name="color_toolbar">#1E293B</color>
+    <color name="color_status_bar">#0F172A</color>
+
+    <!-- Drawer -->
+    <color name="color_drawer_bg">#1E293B</color>
+    <color name="color_nav_selected">#334155</color>
+
+    <!-- Bottom Nav -->
+    <color name="color_bottom_nav_bg">#1E293B</color>
+    
+    <!-- Misc -->
+    <color name="color_card_border">#334155</color>
+    <color name="color_ripple">#33FFFFFF</color>
+    <color name="color_divider">#1E293B</color>
+    <color name="priority_none_bg">#334155</color>
+</resources>

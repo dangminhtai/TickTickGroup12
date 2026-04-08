@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Modern Fresh Palette -->
+    <color name="color_background">#F7F8FC</color>
+    <color name="color_surface">#FFFFFF</color>
+    <color name="color_surface_variant">#EEF1F8</color>
+    <color name="color_surface_elevated">#FFFFFF</color>
+
+    <!-- Primary - Deep Indigo -->
+    <color name="color_primary">#4F46E5</color>
+    <color name="color_primary_variant">#4338CA</color>
+    <color name="color_primary_light">#818CF8</color>
+    <color name="color_on_primary">#FFFFFF</color>
+
+    <!-- Theme Colors -->
+    <color name="color_primary_indigo">#4F46E5</color>
+    <color name="color_primary_indigo_variant">#4338CA</color>
+    <color name="color_primary_green">#10B981</color>
+    <color name="color_primary_green_variant">#059669</color>
+    <color name="color_primary_red">#EF4444</color>
+    <color name="color_primary_red_variant">#DC2626</color>
+    <color name="color_primary_orange">#F59E0B</color>
+    <color name="color_primary_orange_variant">#D97706</color>
+
+    <!-- Accent - Vibrant Coral -->
+    <color name="color_accent">#F97316</color>
+    <color name="color_accent_light">#FB923C</color>
+    <color name="color_accent_dark">#EA580C</color>
+
+    <!-- Secondary - Teal -->
+    <color name="color_secondary">#14B8A6</color>
+    <color name="color_secondary_light">#2DD4BF</color>
+
+    <!-- Text -->
+    <color name="color_text_primary">#1E293B</color>
+    <color name="color_text_secondary">#64748B</color>
+    <color name="color_text_hint">#94A3B8</color>
+    <color name="color_text_on_dark">#FFFFFF</color>
+
+    <!-- Icons -->
+    <color name="color_icon_primary">#475569</color>
+    <color name="color_icon_secondary">#94A3B8</color>
+
+    <!-- Priority Colors - Modern & Vibrant -->
+    <color name="priority_high">#EF4444</color>
+    <color name="priority_high_bg">#FEE2E2</color>
+    <color name="priority_medium">#F59E0B</color>
+    <color name="priority_medium_bg">#FEF3C7</color>
+    <color name="priority_low">#3B82F6</color>
+    <color name="priority_low_bg">#DBEAFE</color>
+    <color name="priority_none">#CBD5E1</color>
+    <color name="priority_none_bg">#F1F5F9</color>
+
+    <!-- Task States -->
+    <color name="color_completed">#10B981</color>
+    <color name="color_completed_bg">#D1FAE5</color>
+    <color name="color_overdue">#EF4444</color>
+    <color name="color_overdue_bg">#FEE2E2</color>
+    <color name="color_divider">#E2E8F0</color>
+
+    <!-- App Bar - Gradient Ready -->
+    <color name="color_toolbar">#4F46E5</color>
+    <color name="color_toolbar_end">#7C3AED</color>
+    <color name="color_status_bar">#4338CA</color>
+
+    <!-- Drawer -->
+    <color name="color_drawer_bg">#FFFFFF</color>
+    <color name="color_drawer_header">#4F46E5</color>
+    <color name="color_drawer_header_end">#7C3AED</color>
+    <color name="color_nav_selected">#EEF2FF</color>
+
+    <!-- Bottom Nav -->
+    <color name="color_bottom_nav_bg">#FFFFFF</color>
+    <color name="color_bottom_nav_selected">#4F46E5</color>
+    <color name="color_bottom_nav_unselected">#94A3B8</color>
+
+    <!-- Swipe Actions -->
+    <color name="color_swipe_delete">#EF4444</color>
+    <color name="color_swipe_complete">#10B981</color>
+
+    <!-- Shadows & Borders -->
+    <color name="color_card_shadow">#1A1E293B</color>
+    <color name="color_card_border">#E2E8F0</color>
+
+    <!-- Splash -->
+    <color name="color_splash_bg">#4F46E5</color>
+    <color name="color_splash_bg_end">#7C3AED</color>
+
+    <!-- FAB -->
+    <color name="color_fab">#4F46E5</color>
+    <color name="color_fab_pressed">#4338CA</color>
+
+    <!-- Interactive States -->
+    <color name="color_ripple">#1A4F46E5</color>
+    <color name="color_highlight">#0D4F46E5</color>
+
+    <!-- Chip Colors -->
+    <color name="color_chip_selected">#4F46E5</color>
+    <color name="color_chip_selected_text">#FFFFFF</color>
+
+    <!-- White / Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

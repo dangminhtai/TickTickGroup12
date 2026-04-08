@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer circle with primary color -->
+    <path
+        android:fillColor="@color/color_primary"
+        android:pathData="M50,5 A45,45 0 1,1 49.9,5 Z" />
+
+    <!-- Inner highlight circle -->
+    <path
+        android:fillColor="@color/color_primary_light"
+        android:fillAlpha="0.3"
+        android:pathData="M50,12 A38,38 0 1,1 49.9,12 Z" />
+
+    <!-- Checkmark / tick -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M28,52 L42,66 L72,36" />
+
+</vector>

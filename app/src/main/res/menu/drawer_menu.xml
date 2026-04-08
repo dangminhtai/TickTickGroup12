@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_today"
+            android:icon="@drawable/ic_today"
+            android:title="@string/nav_today" />
+        <item
+            android:id="@+id/drawer_upcoming"
+            android:icon="@drawable/ic_upcoming"
+            android:title="@string/nav_upcoming" />
+        <item
+            android:id="@+id/drawer_all_tasks"
+            android:icon="@drawable/ic_list"
+            android:title="@string/nav_all_tasks" />
+        <item
+            android:id="@+id/drawer_inbox"
+            android:icon="@drawable/ic_inbox"
+            android:title="@string/inbox" />
+        <item
+            android:id="@+id/drawer_pomodoro"
+            android:icon="@drawable/ic_notes"
+            android:title="🍅 Pomodoro" />
+        <item
+            android:id="@+id/drawer_discover"
+            android:icon="@drawable/ic_search"
+            android:title="ℹ️ Thông tin ứng dụng" />
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="⚙️ Cài đặt" />
+    </group>
+</menu>

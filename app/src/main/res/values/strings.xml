@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TickTick</string>
+    <string name="app_tagline">Luôn Gọn Gàng, Luôn Sáng Tạo</string>
+
+    <!-- Navigation -->
+    <string name="nav_today">Hôm nay</string>
+    <string name="nav_upcoming">Sắp tới</string>
+    <string name="nav_all_tasks">Tất cả</string>
+    <string name="nav_calendar">Lịch</string>
+    <string name="nav_stats">Thống kê</string>
+    <string name="nav_inbox">Hộp thư</string>
+    <string name="nav_settings">Cài đặt</string>
+    <string name="nav_add">Thêm công việc</string>
+    <string name="nav_my_lists">Danh sách của tôi</string>
+
+    <!-- Common -->
+    <string name="save">Lưu</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="edit">Sửa</string>
+    <string name="done">Xong</string>
+    <string name="undo">Hoàn tác</string>
+    <string name="no_tasks">Chưa có công việc nào.\nNhấn + để thêm.</string>
+
+    <!-- Task -->
+    <string name="task_title_hint">Cần làm gì thế?</string>
+    <string name="task_notes_hint">Thêm ghi chú…</string>
+    <string name="add_task">Thêm Công Việc</string>
+    <string name="edit_task">Sửa Công Việc</string>
+    <string name="task_deleted">Đã xóa công việc</string>
+    <string name="task_completed">Tuyệt vời! Đã hoàn thành!</string>
+    <string name="task_restored">Đã khôi phục</string>
+    <string name="task_added">Đã thêm công việc</string>
+    <string name="due_date">Thời hạn</string>
+    <string name="no_date">Không có ngày</string>
+    <string name="priority">Độ ưu tiên</string>
+    <string name="priority_high">Cao</string>
+    <string name="priority_medium">Trung bình</string>
+    <string name="priority_low">Thấp</string>
+    <string name="priority_none">Không</string>
+    <string name="select_list">Chọn danh sách</string>
+    <string name="subtask_hint">Thêm việc phụ…</string>
+    <string name="add_subtask">Thêm Việc Phụ</string>
+
+    <!-- Home -->
+    <string name="greeting_morning">Chào buổi sáng! ☀️</string>
+    <string name="greeting_afternoon">Chào buổi chiều! 🌤</string>
+    <string name="greeting_evening">Chào buổi tối! 🌙</string>
+    <string name="today_tasks">Công việc hôm nay</string>
+    <string name="completed_tasks">Đã hoàn thành</string>
+    <string name="overdue_tasks">Quá hạn</string>
+    <string name="no_tasks_today">Không có việc gì cho hôm nay.\nHãy tận hưởng nhé! 🎉</string>
+    <string name="quick_add">Thêm nhanh</string>
+    <string name="quick_add_sub">Tạo việc mới ngay</string>
+    <string name="quick_calendar">Mở lịch</string>
+    <string name="quick_calendar_sub">Xem timeline &amp; up next</string>
+    <string name="quick_stats">Xem thống kê</string>
+    <string name="quick_stats_sub">Theo dõi tiến độ</string>
+    <string name="next_up_title">Sắp tới</string>
+    <string name="next_up_empty">Không có công việc có hạn gần. Thêm một việc mới nhé!</string>
+    <string name="next_up_due_today">Hôm nay • %1$s</string>
+    <string name="next_up_due_tomorrow">Ngày mai • %1$s</string>
+    <string name="next_up_due_future">%1$s • %2$s</string>
+    <string name="next_up_card_label">Hiển thị thẻ "Sắp tới"</string>
+    <string name="next_up_action_open">Mở chi tiết</string>
+    <string name="filter_all">Tất cả hôm nay</string>
+    <string name="filter_high_priority">Ưu tiên cao</string>
+    <string name="filter_has_reminder">Có nhắc</string>
+    <string name="filter_no_due">Không hạn</string>
+    <string name="filter_overdue">Đang quá hạn</string>
+    <string name="filter_status">Đang lọc: %1$s (%2$d việc)</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="my_tasks">Công việc của tôi</string>
+    <string name="smart_sort_toast">Đã sắp xếp công việc quan trọng lên đầu 🚀</string>
+    <string name="all_caught_up">Bạn đã hoàn thành hết!</string>
+    <string name="tap_to_add_task">Nhấn + để thêm công việc đầu tiên</string>
+    <string name="stats_subtitle">Tổng quan hiệu suất và tiến độ gần đây</string>
+
+    <!-- Inbox -->
+    <string name="inbox_subtitle">Nơi chứa các công việc chưa được phân loại.</string>
+    <string name="empty_inbox_title">Hộp thư của bạn trống</string>
+    <string name="empty_inbox_subtitle">Các công việc mới không thuộc dự án nào sẽ xuất hiện ở đây.</string>
+
+    <!-- All tasks screen -->
+    <string name="all_tasks_title">Tất cả công việc</string>
+    <string name="all_tasks_subtitle">Quản lý và tìm kiếm nhanh</string>
+    <string name="search_tasks_hint">Tìm kiếm tiêu đề, ghi chú hoặc tag…</string>
+    <string name="filter_active">Chưa hoàn thành</string>
+    <string name="filter_completed">Đã hoàn thành</string>
+
+    <!-- Lists -->
+    <string name="inbox">Hộp thư</string>
+    <string name="personal">Cá nhân</string>
+    <string name="work">Công việc</string>
+    <string name="new_list">Danh sách mới</string>
+    <string name="list_name_hint">Tên danh sách…</string>
+
+    <!-- Calendar -->
+    <string name="calendar">Lịch</string>
+    <string name="no_tasks_date">Trống lịch ngày này.</string>
+
+    <!-- Settings -->
+    <string name="settings">Cài đặt</string>
+    <string name="appearance">Giao diện</string>
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="notifications">Thông báo</string>
+    <string name="reminder_notifications">Thông báo nhắc nhở</string>
+    <string name="about">Thông tin</string>
+    <string name="version">Phiên bản 2.0</string>
+    <string name="made_with_love">Được phát triển với ❤️ bởi Nhóm 12</string>
+    <string name="settings_subtitle">Tùy chỉnh giao diện và hành vi của ứng dụng</string>
+    <string name="accent_color">Màu nhấn</string>
+    <string name="theme_change_toast">Đã đổi màu chủ đạo, ứng dụng sẽ tải lại để áp dụng.</string>
+    <string name="ai_summary_title">AI gợi ý tóm tắt &amp; thẻ</string>
+    <string name="ai_summary_placeholder">Nhập ghi chú để AI gợi ý tóm tắt và thẻ.</string>
+
+    <!-- Descriptions for accessibility -->
+    <string name="cd_menu">Mở menu</string>
+    <string name="cd_add_task">Thêm mới</string>
+    <string name="cd_task_checkbox">Đánh dấu hoàn thành</string>
+    <string name="cd_task_priority">Độ ưu tiên</string>
+    <string name="pomodoro_title">Pomodoro</string>
+    <string name="pomodoro_mode_focus">Tập trung 🎯</string>
+    <string name="pomodoro_mode_short_break">Nghỉ ngắn 😌</string>
+    <string name="pomodoro_mode_long_break">Nghỉ dài 🏖️</string>
+    <string name="pomodoro_start">Bắt đầu</string>
+    <string name="pomodoro_pause">Tạm dừng</string>
+    <string name="pomodoro_resume">Tiếp tục</string>
+    <string name="pomodoro_reset">Đặt lại</string>
+    <string name="pomodoro_skip">Bỏ qua</string>
+    <string name="pomodoro_session_label">Phiên %1$d/%2$d</string>
+    <string name="pomodoro_tip">💡 Tập trung 25 phút, nghỉ 5 phút. Sau 4 phiên, nghỉ 15 phút.</string>
+</resources>

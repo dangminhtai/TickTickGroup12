@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme - Modern & Fresh -->
+    <style name="Base.Theme.Tick_tick" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryVariant">@color/color_primary_variant</item>
+        <item name="colorOnPrimary">@color/color_on_primary</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorTertiary">@color/color_accent</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="colorSurface">@color/color_surface</item>
+        <item name="colorSurfaceVariant">@color/color_surface_variant</item>
+        <item name="colorOnSurface">@color/color_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/color_text_secondary</item>
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:statusBarColor">@color/color_status_bar</item>
+        <item name="android:navigationBarColor">@color/color_bottom_nav_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="materialButtonStyle">@style/Widget.Modern.Button</item>
+        <item name="bottomNavigationStyle">@style/Widget.Modern.BottomNavigation</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Modern.FAB</item>
+        <item name="chipStyle">@style/Widget.Modern.Chip</item>
+        <item name="textInputStyle">@style/Widget.Modern.TextInputLayout</item>
+    </style>
+
+    <style name="Theme.Tick_tick" parent="Base.Theme.Tick_tick" />
+
+    <!-- Dynamic App Themes -->
+    <style name="AppTheme_Indigo" parent="Theme.Tick_tick">
+        <item name="colorPrimary">@color/color_primary_indigo</item>
+        <item name="colorPrimaryVariant">@color/color_primary_indigo_variant</item>
+        <item name="android:statusBarColor">@color/color_primary_indigo_variant</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorTertiary">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme_Green" parent="Theme.Tick_tick">
+        <item name="colorPrimary">@color/color_primary_green</item>
+        <item name="colorPrimaryVariant">@color/color_primary_green_variant</item>
+        <item name="android:statusBarColor">@color/color_primary_green_variant</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorTertiary">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme_Red" parent="Theme.Tick_tick">
+        <item name="colorPrimary">@color/color_primary_red</item>
+        <item name="colorPrimaryVariant">@color/color_primary_red_variant</item>
+        <item name="android:statusBarColor">@color/color_primary_red_variant</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorTertiary">@color/color_accent</item>
+    </style>
+
+    <style name="AppTheme_Orange" parent="Theme.Tick_tick">
+        <item name="colorPrimary">@color/color_primary_orange</item>
+        <item name="colorPrimaryVariant">@color/color_primary_orange_variant</item>
+        <item name="android:statusBarColor">@color/color_primary_orange_variant</item>
+        <item name="colorSecondary">@color/color_secondary</item>
+        <item name="colorTertiary">@color/color_accent</item>
+    </style>
+
+    <!-- Style cho CalendarView -->
+    <style name="Widget.App.CalendarView" parent="Widget.Design.TabLayout">
+        <item name="android:colorAccent">@color/color_primary</item>
+        <item name="android:colorControlActivated">@color/color_primary</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.Tick_tick.Splash" parent="Base.Theme.Tick_tick">
+        <item name="android:windowBackground">@color/color_splash_bg</item>
+        <item name="android:statusBarColor">@color/color_splash_bg</item>
+        <item name="android:navigationBarColor">@color/color_splash_bg</item>
+    </style>
+
+    <!-- Modern Button -->
+    <style name="Widget.Modern.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/color_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="elevation">4dp</item>
+        <item name="rippleColor">@color/color_ripple</item>
+    </style>
+
+    <!-- Modern Outlined Button -->
+    <style name="Widget.Modern.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_primary</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="rippleColor">@color/color_ripple</item>
+    </style>
+
+    <!-- Modern Text Button -->
+    <style name="Widget.Modern.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="rippleColor">@color/color_ripple</item>
+    </style>
+
+    <!-- Modern FAB with animation-ready -->
+    <style name="Widget.Modern.FAB" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="backgroundTint">@color/color_primary</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">12dp</item>
+        <item name="pressedTranslationZ">6dp</item>
+        <item name="borderWidth">0dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Modern.FAB</item>
+        <item name="rippleColor">@color/color_ripple</item>
+    </style>
+
+    <!-- FAB Shape -->
+    <style name="ShapeAppearance.Modern.FAB" parent="ShapeAppearance.Material3.Corner.Full">
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <!-- Modern Bottom Navigation -->
+    <style name="Widget.Modern.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="android:background">@color/color_bottom_nav_bg</item>
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="elevation">16dp</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.Modern.BottomNavigation.ActiveIndicator</item>
+        <item name="itemRippleColor">@color/color_ripple</item>
+    </style>
+
+    <!-- Bottom Navigation Active Indicator -->
+    <style name="Widget.Modern.BottomNavigation.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/color_nav_selected</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Modern.SmallComponent</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget.Modern.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/color_toolbar</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/color_primary_light</item>
+        <item name="navigationIconTint">@color/white</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <!-- AppBar -->
+    <style name="Widget.Modern.AppBar" parent="Widget.Material3.AppBarLayout">
+        <item name="android:background">@color/color_toolbar</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Widget" />
+    <style name="Widget.App" parent="Widget" />
+
+    <!-- Modern Card Style -->
+    <style name="Widget.Modern.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/color_surface</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="rippleColor">@color/color_ripple</item>
+    </style>
+
+    <style name="Widget.App.CardView.Stroked" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">@color/color_surface</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="strokeColor">@color/color_card_border</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="Widget.App.Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_divider</item>
+    </style>
+
+    <!-- Task Card with no stroke -->
+    <style name="Widget.Modern.TaskCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/color_surface</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <!-- Small Component Shape -->
+    <style name="ShapeAppearance.Modern.SmallComponent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <!-- Task item text styles -->
+    <style name="TextAppearance.Modern.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Modern.Subtitle" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextAppearance.App.Label" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.08</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Modern.SectionHeader" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.Modern.Greeting" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/color_text_primary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Modern.AppTitle" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <!-- Modern Input -->
+    <style name="Widget.Modern.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/color_primary</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="hintTextColor">@color/color_primary</item>
+        <item name="android:textColorHint">@color/color_text_hint</item>
+    </style>
+
+    <!-- Modern Chip -->
+    <style name="Widget.Modern.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">12dp</item>
+        <item name="chipMinHeight">40dp</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipStrokeColor">@color/color_surface_variant</item>
+        <item name="chipBackgroundColor">@color/color_surface</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipIconVisible">false</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+        <item name="rippleColor">@color/color_ripple</item>
+    </style>
+
+    <!-- Priority Chips -->
+    <style name="Widget.Modern.Chip.Priority" parent="Widget.Modern.Chip">
+        <item name="chipMinHeight">32dp</item>
+    </style>
+
+    <style name="Widget.Modern.Chip.Priority.High" parent="Widget.Modern.Chip.Priority">
+        <item name="chipBackgroundColor">@color/priority_high_bg</item>
+        <item name="android:textColor">@color/priority_high</item>
+    </style>
+
+    <style name="Widget.Modern.Chip.Priority.Medium" parent="Widget.Modern.Chip.Priority">
+        <item name="chipBackgroundColor">@color/priority_medium_bg</item>
+        <item name="android:textColor">@color/priority_medium</item>
+    </style>
+
+    <style name="Widget.Modern.Chip.Priority.Low" parent="Widget.Modern.Chip.Priority">
+        <item name="chipBackgroundColor">@color/priority_low_bg</item>
+        <item name="android:textColor">@color/priority_low</item>
+    </style>
+
+    <!-- Modern Snackbar -->
+    <style name="Widget.Modern.Snackbar" parent="Widget.Material3.Snackbar">
+        <item name="shapeAppearance">@style/ShapeAppearance.Modern.SmallComponent</item>
+    </style>
+
+    <!-- Bottom Sheet -->
+    <style name="Widget.Modern.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="shapeAppearance">@style/ShapeAppearance.Modern.BottomSheet</item>
+        <item name="backgroundTint">@color/color_surface</item>
+    </style>
+
+    <style name="ShapeAppearance.Modern.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".TickTickApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_logo"
+        android:roundIcon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tick_tick">
+
+        <!-- Splash Screen -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Tick_tick.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Alarm Receiver -->
+        <receiver
+            android:name=".receiver.TaskAlarmReceiver"
+            android:exported="true" />
+
+        <receiver
+            android:name=".receiver.TaskActionReceiver"
+            android:exported="true" />
+
+        <receiver
+            android:name=".receiver.DailyReminderReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="hcmute.edu.vn.tick_tick.ACTION_DAILY_DIGEST" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".receiver.ReminderBootReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Today Widget -->
+        <receiver
+            android:name=".receiver.TodayWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="hcmute.edu.vn.tick_tick.ACTION_REFRESH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/today_widget_info" />
+        </receiver>
+
+        <!-- Streak Widget -->
+        <receiver
+            android:name=".receiver.StreakWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/today_widget_info" />
+        </receiver>
+
+        <service
+            android:name=".receiver.TodayWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <!-- Next Up Widget -->
+        <receiver
+            android:name=".receiver.NextUpWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="hcmute.edu.vn.tick_tick.ACTION_NEXT_UP_REFRESH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/next_up_widget_info" />
+        </receiver>
+
+        <!-- AI insight receiver for notes -->
+        <receiver
+            android:name=".receiver.NoteInsightReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="hcmute.edu.vn.tick_tick.ACTION_AI_NOTE_INSIGHT" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>
